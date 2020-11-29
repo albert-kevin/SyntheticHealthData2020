@@ -1,0 +1,31 @@
+<ul class="graph-diagram-markup" data-internal-scale="1" data-external-scale="1">
+  <li class="node" data-node-id="0" data-x="-1203.4698791503906" data-y="-561.5808410644531"></li>
+  <li class="node" data-node-id="1" data-x="1891.1084327697754" data-y="1241.8617696762085"></li>
+  <li class="node" data-node-id="2" data-x="51.319877207279205" data-y="58.76248049736023">
+    <span class="caption">Patient</span><dl class="properties"><dt>patient_id</dt><dd>str(1542)</dd></dl></li>
+  <li class="node" data-node-id="3" data-x="721.9674987792969" data-y="58.76248049736023">
+    <span class="caption">Race</span><dl class="properties"><dt>value</dt><dd>str(Hispanic)</dd></dl></li>
+  <li class="node" data-node-id="4" data-x="721.9674987792969" data-y="318.6097717285156">
+    <span class="caption">Gender</span><dl class="properties"><dt>value</dt><dd>str(Female)</dd></dl></li>
+  <li class="node" data-node-id="5" data-x="721.9674987792969" data-y="583.8551635742188">
+    <span class="caption">Age</span><dl class="properties"><dt>value</dt><dd>str("60-70")</dd></dl></li>
+  <li class="node" data-node-id="6" data-x="51.319877207279205" data-y="695.8541564941406">
+    <span class="caption">Medicine</span><dl class="properties"><dt>value</dt><dd>str(insulin)</dd><dt>drugdose</dt><dd>str(Up)</dd></dl></li>
+  <li class="node" data-node-id="11" data-x="-563.2634887695312" data-y="695.8541564941406">
+    <span class="caption">HospitalDays</span><dl class="properties"><dt>severity</dt><dd>str(Mild)</dd><dt>value</dt><dd>str(2)</dd></dl></li>
+  <li class="relationship" data-from="2" data-to="3">
+    <span class="type">HAS_RACE</span>
+  </li>
+  <li class="relationship" data-from="2" data-to="4">
+    <span class="type">HAS_GENDER</span>
+  </li>
+  <li class="relationship" data-from="2" data-to="5">
+    <span class="type">HAS_AGE</span>
+  </li>
+  <li class="relationship" data-from="2" data-to="6">
+    <span class="type">USE_MEDICINE</span>
+  </li>
+  <li class="relationship" data-from="2" data-to="11">
+    <span class="type">HOSPITAL_STAY</span>
+  </li>
+</ul>
