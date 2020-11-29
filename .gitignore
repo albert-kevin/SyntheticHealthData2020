@@ -1,5 +1,3 @@
-data/bronze
-data/silver
 neo4j/conf
 neo4j/data
 neo4j/logs
